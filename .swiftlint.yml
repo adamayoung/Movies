@@ -1,0 +1,19 @@
+opt_in_rules:
+  - attributes
+  - closure_spacing
+  - conditional_returns_on_newline
+  - empty_count
+  - first_where
+  - operator_usage_whitespace
+  - sorted_imports
+
+cyclomatic_complexity:
+  ignores_case_statements: true
+
+identifier_name:
+  excluded:
+    - app
+
+line_length:
+  ignores_urls: true
+  ignores_comments: true
